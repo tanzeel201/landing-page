@@ -1,0 +1,760 @@
+/* navbar */
+.nav {
+    display: flex;
+    padding: 2rem;
+    list-style-type: none;  
+}
+
+#logo {
+    height: 2rem;
+    margin-left: 8rem;
+}
+
+#location {
+    height: 1rem;
+    width: 10rem;
+}
+
+nav ul {
+    list-style-type: none;
+    justify-content: space-between;  
+}
+
+nav ul li {
+    display: inline-block; 
+    text-decoration: none;
+    margin-right: 7rem; /* Adjust the space between items as needed */
+}
+
+nav ul li:last-child {
+    margin-right: 0; /* Remove margin from the last item */
+}
+
+nav ul li a {
+    text-decoration: none; 
+    color: black; 
+}
+.nav-text
+{
+    display: inline-block;
+}
+.nav-img{
+    margin-right: 1rem;
+   display: inline;
+}
+
+.nav button {
+    height: 2.7rem;
+    width: 9rem;
+    border-radius: 5rem;
+    color: white;
+    background-color: #0391D3;
+    border: none;
+    cursor: pointer;
+}
+/* navbar end */
+
+/* section1 */
+.section1{
+    height: 40%;
+    margin: 2rem ;
+    display: flex;
+    background-color: #F8F8F8;
+}
+.section1-left{
+   position: relative;
+   right: -10.4rem;
+   
+}
+.section1-left button{
+    height: 3rem;
+    width: 14rem;
+    border-radius: 5rem;
+    border: none;
+    color: white;
+    background-color: #0391D3;
+    cursor: pointer;
+}
+#number{
+    width: 30rem;
+}
+.section1-right{
+    position: relative;
+    right: -15rem;
+    width: 50%;
+    height: 20rem;
+    background-color: #0391D3;
+    border: none;
+    border-top-left-radius:100%;
+}
+#group-img{
+    position: relative;
+    right: -15rem;
+    width: 60%;
+    height: 21rem;
+}
+/* section1 end */
+
+/* section2 css */
+.section2-left{
+    display: flex;
+    
+}
+#washing1{
+    height: 30rem;
+    position: relative;
+    right: -8rem;
+}
+.section2{
+    display: flex;
+    padding: 5rem;
+}
+.section2-right{
+    position: relative;
+    left: 8rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Example: 3 columns */
+    grid-gap: 1rem; /* Adjust the gap between grid items */
+}
+.section2-right img{
+    height: 13rem;
+    width: 15rem;
+}
+.arrow-one{
+    position: relative;
+    right: -7rem;
+    top: 15rem;
+
+}
+.arrow-two{
+    position: relative;
+    right: -11rem;
+    top: 15rem;
+
+}
+/* section2 end */
+/* bar1 */
+.bar1{
+    display: flex;
+    justify-content: center;
+    
+}
+.bar1 button{
+    height: 3rem;
+    width: 8rem;
+    border: none;
+    border-radius: 40rem;
+    background-color: #0391D3;
+    color: white;
+    margin: 2rem;
+    cursor: pointer;
+}
+/* bar1 end */
+/* section3 */
+.section3{
+    position: relative;
+    left: 11rem;
+    width: 75%;
+    height: 15rem;
+    background-color: #3CA7DB;
+}
+.section3-left{
+    position: relative;
+    left: 3rem;
+    top: 5rem;
+    
+}
+.section3-left button{
+    height: 3rem;
+    border: none;
+    color: white;
+    background-color: #F3393A;
+    border-radius: 4rem;
+}
+.section3-left h2  {
+    color: white;
+}
+.section3-left p  {
+    color: white;
+    margin-top: -1rem;
+}
+#cooler{
+    position: relative;
+    top: -8rem;
+    left: 45rem;
+    height: 14rem;
+}
+#washing2{
+    position: relative;
+    top: -8rem;
+    left: 40rem;
+    height: 17rem;
+}
+#mechanic{
+    position: relative;
+    top: -9rem;
+    left: 10rem;
+    height: 17rem;
+
+}
+/* secton3 ended */
+/* section4 */
+.section4{
+    margin: 2rem;
+    height: 30rem;
+    background-color: #3CA7DB;
+    
+}
+#cap{
+    position: relative;
+    top: 2rem;
+    left: 40rem;
+    height: 1.5rem;
+}
+/* Grid container */
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 columns */
+    grid-template-rows: repeat(2, auto); /* 2 rows */
+    gap: 20px; /* Gap between grid items */
+    height: 2rem;
+    width: 65rem;
+    position: relative;
+    bottom: 25rem;
+    left: 11rem;
+}
+
+/* Grid items */
+.grid-item {
+    background-color: white;
+    padding: 20px;
+    text-align: center;
+}
+.grid-item p{
+    color: gray;
+    font-size: 0.9rem;
+
+}
+.grid-item span{
+    float: left;
+    color: red;
+}
+/* section4 end */
+/* section5 */
+.section5 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+    padding: 18.5rem;
+    margin-top: -10rem;
+    margin-left: -8rem;
+  }
+  
+  .cards {
+    background-color: white;
+    border: 1px solid lightblue;
+    padding: 1rem;
+    text-align: center;
+    height: 10rem;
+    width: 20rem;
+  }
+  #cards4, #cards5, #cards6{
+    margin-top: 3rem;
+  }
+  .tag{
+    display: grid;
+    color: white;
+    background-color: #3CA7DB;
+    height: 5rem;
+    width: 5rem;
+    position: relative;
+    bottom: 4rem;
+    right: 1rem;
+    
+  }
+  .step1{
+    display: flex;
+  }
+.step{
+    margin-top: -7rem;
+}
+.step p{
+    color: gray;
+    font-size: 0.9rem;
+    width: 10rem;
+    margin-left: 8rem;
+}
+.step h3{
+    margin-left: 5rem;
+    
+}
+/* section5 end */
+
+/* section6 */
+.section6{
+    position: relative;
+    left: 7rem;
+    width: 80rem;
+    height: 15rem;
+    background-color: #3CA7DB;
+    margin-top: -10rem;
+}
+.section6-left{
+    position: relative;
+    top: 5rem;
+    
+}
+.section6-left button{
+    height: 3rem;
+    border: none;
+    color: white;
+    background-color: #F3393A;
+    border-radius: 4rem;
+}
+.section6-left h2  {
+    color: white;
+}
+.section6-left p  {
+    color: white;
+    margin-top: -1rem;
+}
+#cooler{
+    position: relative;
+    top: -8rem;
+    left: 45rem;
+    height: 14rem;
+}
+#washing2{
+    position: relative;
+    top: -8rem;
+    left: 40rem;
+    height: 17rem;
+}
+#mechanic{
+    position: relative;
+    top: -9rem;
+    left: 10rem;
+    height: 17rem;
+
+}
+/* section6 ended */
+/* section7 */
+.section7{
+    
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+  }
+  .info-container {
+    display: flex;
+    justify-content: space-evenly;
+    width: 80rem;
+    position: relative;
+    left: 9rem;
+
+  }
+  .pic{
+    margin-top: -2rem;
+  }
+  #pic1, #pic2, #pic3{
+    height: 4rem;
+  }
+  .info-card p{
+    margin-top: 1.5rem;
+    font-size: 0.9rem;
+    color: gray;
+  }
+  .info-card h3{
+    margin-top: 1rem;
+    margin-right: 8rem;
+  }
+  .info-card {
+    background-color: white;
+    border: 1px solid lightblue;
+    text-align: center;
+    height: 15rem;
+    width: 25rem;
+    margin-right: 1rem;
+  }
+  #info{
+    text-align: center;
+    padding: 4rem;
+    
+  }
+/* section7 end */
+/* section8 */
+.section8{
+    margin: 5rem;
+    background-color: #3CA7DB;
+    height: 25rem;
+}
+.grid-container1 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 3 columns in first row */
+    grid-template-rows: auto auto; /* 2 rows */
+    gap: 20px; /* Adjust gap between grid items */
+    position: relative;
+    top: 7rem;
+    left: 3.5rem ;
+    width: 70rem;
+}
+
+.grid-item1 {
+    background-color: white;
+    padding: 1rem;
+    text-align: center;
+}
+.section8 h2{
+    text-align: center;
+    position: relative;
+    top: 4rem;
+    color: white;
+}
+
+/* section8 end */
+/* section9 */
+#map{
+    height: 25rem;
+    width: 90rem;
+}
+/* section9 end */
+/* section10 */
+.section10{
+    display: flex;
+}
+.section10 p{
+    font-size: 0.5rem;
+    width: 10rem;
+    position: relative;
+    left: 8rem;
+}
+.section10 span{
+    font-size: 0.8rem;
+    width: 15rem;
+    position: relative;
+    left: 40rem;
+    top: 1rem;
+}
+
+#logo2{
+    height: 7rem;
+    width: 4rem;
+    position: relative;
+    left: 6.5rem;
+}
+/* section10 end */
+
+/* Media Queries */
+
+/* iPad */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+    #logo {
+        margin-left: 5rem; 
+    }
+    
+    nav ul li {
+        margin-right: 4rem; 
+        
+    }
+    .section1-left {
+        right: -8rem; /* Adjust as needed for iPad */
+    }
+
+    .section1-right,
+    #group-img {
+        display: block; /* Display these elements on iPad */
+    }
+    .section2{
+        display: list-item;
+    }
+    #washing1 {
+        left: -1rem;
+        height: 15rem;
+        width: 20rem;
+        margin-bottom: 2rem;
+    }
+    .section2-right img{
+        position: relative;
+        right: 8rem;
+        height: 13rem;
+        width: 15rem;
+        margin-bottom: 2rem;
+    }
+    .arrow-one{
+        position: relative;
+        right: 3rem;
+        top: 20rem;
+    
+    }
+    .arrow-two{
+        position: relative;
+        left: 20rem;
+        top: -60rem;
+    
+    }
+    
+    .section2-right {
+        grid-template-columns: repeat(1, 1fr); 
+    }
+    .bar1 {
+        flex-direction: column; /* Stack buttons vertically */
+        align-items: center; /* Center items horizontally */
+    }
+
+    .bar1 button {
+        margin: 1rem; /* Adjust margin for spacing */
+    }
+    .section3 {
+        left: 0;
+        width: 20rem;
+        height: auto; /* Adjust height as needed */
+        padding: 1rem; /* Adjust padding for spacing */
+    }
+
+    .section3-left {
+        left: 0;
+        top: 0;
+        margin-bottom: 2rem; /* Add margin for spacing */
+    }
+
+    #cooler,
+    #washing2,
+    #mechanic {
+        position: static;
+        left: 10rem;
+        width: 5rem;
+        height: 6rem; /* Adjust height as needed */
+        margin-bottom: 2rem; /* Add margin for spacing */
+    }
+    .section4 {
+        height: 60rem;
+        padding: 1rem; /* Adjust padding for spacing */
+        width: 25rem;
+        height: 100rem;
+    }
+
+    #cap {
+        left: 0;
+        top: 1rem;
+    }
+
+    .grid-container {
+        grid-template-columns: repeat(1, 1fr); /* 3 columns */
+        width: 15rem;
+        position: relative;
+        top:  -100rem;
+        left: 05rem;
+        margin-top: 2rem; /* Adjust margin for spacing */
+    }
+    .section5 {
+        grid-template-columns: repeat(1, 1fr); /* 1 column for iPhone */
+        padding: 2rem; /* Adjust padding for spacing */
+        margin-top: 0;
+        margin-left: 0;
+    }
+
+    .cards {
+        width: 20rem; /* Adjust card width for iPhone */
+    }
+
+    .step {
+        margin-top: -4rem; /* Adjust margin for spacing */
+    }
+
+    .step p {
+        width: 100%; /* Adjust width for iPhone */
+        margin-left: 0;
+        text-align: center; /* Center-align text */
+    }
+
+    .step h3 {
+        margin-left: 0; /* Remove left margin for iPhone */
+        text-align: center; /* Center-align text */
+    }
+    .section6{
+        position: relative;
+        left: 3rem;
+        width: 25rem;
+        height: 15rem;
+        background-color: #3CA7DB;
+        margin-top: -1rem;
+    }
+    
+    .info-container {
+        display: grid;
+        grid-template-columns: 10rem;
+        position: relative;
+        left: -35rem;
+     }
+
+}
+
+/* iPhone */
+@media only screen and (max-device-width: 768px) {
+    .nav {
+        padding: 3rem; /* Adjust padding for iPhone */
+        justify-content: space-between;
+    
+    }
+    
+    #logo {
+        margin-left: 3rem; /* Adjust as needed for iPhone */
+    }
+    
+    nav ul li {
+        margin-right: 3rem; /* Adjust as needed for iPhone */
+    }
+    .section1 {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .section1-left {
+        right: 0;
+        margin-bottom: 2rem; /* Adjust margin as needed */
+    }
+
+    .section1-right,
+    #group-img {
+        display: none; /* Hide these elements on iPhone */
+    }
+    .section2{
+        display: list-item;
+    }
+    #washing1 {
+        left: -1rem;
+        height: 15rem;
+        width: 20rem;
+        margin-bottom: 2rem;
+    }
+    .section2-right img{
+        position: relative;
+        right: 8rem;
+        height: 13rem;
+        width: 15rem;
+        margin-bottom: 2rem;
+    }
+    .arrow-one{
+        position: relative;
+        right: 3rem;
+        top: 20rem;
+    
+    }
+    .arrow-two{
+        position: relative;
+        left: 20rem;
+        top: -60rem;
+    
+    }
+    
+    .section2-right {
+        grid-template-columns: repeat(1, 1fr); 
+    }
+    .bar1 {
+        flex-direction: column; /* Stack buttons vertically */
+        align-items: center; /* Center items horizontally */
+    }
+
+    .bar1 button {
+        margin: 1rem; /* Adjust margin for spacing */
+    }
+    .section3 {
+        left: 0;
+        width: 20rem;
+        height: auto; /* Adjust height as needed */
+        padding: 1rem; /* Adjust padding for spacing */
+    }
+
+    .section3-left {
+        left: 0;
+        top: 0;
+        margin-bottom: 2rem; /* Add margin for spacing */
+    }
+
+    #cooler,
+    #washing2,
+    #mechanic {
+        position: static;
+        left: 10rem;
+        width: 5rem;
+        height: 6rem; /* Adjust height as needed */
+        margin-bottom: 2rem; /* Add margin for spacing */
+    }
+
+    .section4 {
+        height: 60rem;
+        padding: 1rem; /* Adjust padding for spacing */
+        width: 25rem;
+        height: 100rem;
+    }
+
+    #cap {
+        left: 0;
+        top: 1rem;
+    }
+
+    .grid-container {
+        grid-template-columns: repeat(1, 1fr); /* 3 columns */
+        width: 15rem;
+        position: relative;
+        top:  -100rem;
+        left: 05rem;
+        margin-top: 2rem; /* Adjust margin for spacing */
+    }
+    .section5 {
+        grid-template-columns: repeat(1, 1fr); /* 1 column for iPhone */
+        padding: 2rem; /* Adjust padding for spacing */
+        margin-top: 0;
+        margin-left: 0;
+    }
+
+    .cards {
+        width: 20rem; /* Adjust card width for iPhone */
+    }
+
+    .step {
+        margin-top: -4rem; /* Adjust margin for spacing */
+    }
+
+    .step p {
+        width: 100%; /* Adjust width for iPhone */
+        margin-left: 0;
+        text-align: center; /* Center-align text */
+    }
+
+    .step h3 {
+        margin-left: 0; /* Remove left margin for iPhone */
+        text-align: center; /* Center-align text */
+    }
+    .section6{
+        position: relative;
+        left: 3rem;
+        width: 25rem;
+        height: 15rem;
+        background-color: #3CA7DB;
+        margin-top: -1rem;
+    }
+
+      .info-container {
+       display: grid;
+       grid-template-columns: 10rem;
+       position: relative;
+       left: -35rem;
+    }
+    .section8{
+        height: 45rem;
+        width: 15rem;
+    }
+    .grid-container1 {
+        grid-template-columns: repeat(1, 1fr); /* 1 column for iPhone */
+        width: 100%; /* Full width for iPhone */
+        padding: 1rem; /* Adjust padding for spacing */
+        left: 0; /* Remove left position */
+        top: 3rem; /* Adjust top position for spacing */
+    }
+
+}
+    
+
+
